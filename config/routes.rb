@@ -1,4 +1,16 @@
 Crickytube::Application.routes.draw do
+  get "pages/recent"
+
+  get "pages/popular"
+
+  get "pages/crickytube"
+
+  get "pages/fanfights"
+
+  get "pages/livelinks"
+
+  get "pages/highlights"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
