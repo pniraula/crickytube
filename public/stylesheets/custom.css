@@ -1,0 +1,59 @@
+body{
+	text-align: center;
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+#header{
+	text-align:left;
+	background-color: #004400;
+}
+#header #logo img{
+	margin-top: -10px;
+	height: 50px;
+	margin-left: 50px;
+}
+nav {
+  background-color:#002200;
+  border: 2px solid #002200;
+  width: 485px;
+  padding: 0 0.7em;
+  font-size: 14px;
+  white-space: nowrap;
+  margin-top: -30px;
+  margin-left: 220px;
+  color: white;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:visited {
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+#mainarea{
+  border: 1px solid #002200;
+  border-top: none;
+  width: 507px;
+  height: 500px;
+  margin-left: 220px;
+  margin-top: -22px;
+}

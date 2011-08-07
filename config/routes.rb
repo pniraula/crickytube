@@ -11,6 +11,13 @@ Crickytube::Application.routes.draw do
 
   get "pages/highlights"
 
+  match "/recent", :to => "pages#recent"
+  match "/popular", :to => "pages#popular"
+  match "/crickytube", :to => "pages#crickytube"
+  match "/fanfights", :to => "pages#fanfights"
+  match "/livelinks", :to => "pages#livelinks"
+  match "/highlights", :to => "pages#highlights"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
