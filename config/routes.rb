@@ -17,7 +17,8 @@ Crickytube::Application.routes.draw do
   match "/fanfights", :to => "pages#fanfights"
   match "/livelinks", :to => "pages#livelinks"
   match "/highlights", :to => "pages#highlights"
-
+  match "/", :to =>"pages#recent"
+  root :to: "pages#recent"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
