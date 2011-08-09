@@ -1,4 +1,7 @@
 Crickytube::Application.routes.draw do
+  resources :user
+  get "user/new"
+
   get "pages/recent"
 
   get "pages/popular"
@@ -11,6 +14,7 @@ Crickytube::Application.routes.draw do
 
   get "pages/highlights"
 
+  match "/signup", :to=>"user#new"
   match "/recent", :to => "pages#recent"
   match "/popular", :to => "pages#popular"
   match "/crickytube", :to => "pages#crickytube"
@@ -18,7 +22,7 @@ Crickytube::Application.routes.draw do
   match "/livelinks", :to => "pages#livelinks"
   match "/highlights", :to => "pages#highlights"
   match "/", :to =>"pages#recent"
-  root :to: "pages#recent"
+  root :to=>"pages#recent"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

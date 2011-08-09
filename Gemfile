@@ -9,7 +9,9 @@ gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
-
+group :development do
+  gem 'annotate', '2.4.0'
+end
 # Deploy with Capistrano
 # gem 'capistrano'
 

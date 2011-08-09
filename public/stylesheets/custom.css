@@ -8,6 +8,10 @@ body{
 #header{
 	text-align:left;
 	background-color: #004400;
+	height: 40px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft:5px;
+	
 }
 #header #logo img{
 	margin-top: -10px;
@@ -16,14 +20,16 @@ body{
 }
 nav {
   background-color:#002200;
-  border: 2px solid #002200;
   width: 485px;
   padding: 0 0.7em;
   font-size: 14px;
   white-space: nowrap;
-  margin-top: -30px;
+  margin-top: -22px;
   margin-left: 220px;
   color: white;
+  border: 4px outset solid #002200;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-topleft: 5px;
 }
 
 nav ul {
@@ -52,8 +58,7 @@ nav ul li a:hover {
 #mainarea{
   border: 1px solid #002200;
   border-top: none;
-  width: 507px;
+  width: 958px;
   height: 500px;
-  margin-left: 220px;
-  margin-top: -22px;
+  margin-top: -30px;
 }
